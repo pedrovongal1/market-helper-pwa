@@ -1,0 +1,63 @@
+{
+  "name": "Market Helper - Assistente de Compras",
+  "short_name": "Market Helper",
+  "description": "Seu assistente inteligente para compras. Controle gastos, crie listas e nunca estoure o orçamento!",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["shopping", "productivity", "finance"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Tela principal do Market Helper"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Estou no Mercado",
+      "short_name": "Mercado",
+      "description": "Iniciar calculadora de compras",
+      "url": "/?action=shopping",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Criar Lista",
+      "short_name": "Nova Lista",
+      "description": "Criar nova lista de compras",
+      "url": "/?action=create-list",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
