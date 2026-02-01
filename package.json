@@ -1,0 +1,25 @@
+{
+  "name": "market-helper-pwa",
+  "version": "2.0.0",
+  "description": "Market Helper - Assistente Inteligente de Compras",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "pwa",
+    "shopping",
+    "list",
+    "budget"
+  ],
+  "author": "Você",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}
